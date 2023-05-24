@@ -622,23 +622,9 @@ body {
 /**=================Subscribe=================*/
 
 .Subscribe-container {
-  display: flex;
   margin-left: 80px;
 }
-
-.Subscribe-button {
-  background: var(--portfolio-btn-color);
-  color: var(--body-background-color);
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 24px;
-  /* gap: 16px; */
-  margin-left: 213px;
-}
-
 .Subscribe-input {
-  position: absolute;
   background-color: transparent;
   width: 264px;
   height: 40px;
@@ -646,19 +632,25 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: #ffffff;
+  padding: 8px 16px;
 }
-
-.Subscribe-label {
+.Subscribe-button {
   position: relative;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 2;
-  align-items: center;
+  margin-left: 16px;
+  background: var(--portfolio-btn-color);
+  color: var(--body-background-color);
+  padding: 8px 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  top: 8px;
-  left: 16px;
+  width: 165px;
+  height: 40px;
 }
-
-.Subscribe-item {
+.Subscribe-icon {
+  position: absolute; 
+  margin-left: 16px;   
 }
