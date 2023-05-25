@@ -556,6 +556,7 @@ body {
   fill: #f4f4fd;
 }
 
+/**=================MODAL=================*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -617,6 +618,79 @@ body {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+.modal-title {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 72px;
+}
+
+.modal-field {
+  margin-top: 8px;
+}
+
+.input-wrap {
+  position: relative;
+}
+
+.modal-input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  outline: transparent;
+  padding-left: 38px;
+}
+
+.modal-input:focus {
+  border-color: #4D5AE5;
+}
+
+.modal-input:focus + .modal-icon {
+  fill: #4D5AE5;
+}
+
+.modal-icon {
+  position: absolute;
+  left: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.modal-label {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+
+.input-text {
+  display: inline-block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.modal-textarea {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  outline: transparent;
+  font-size: 14px;
+  color: green;
+  padding: 10px;
+  resize: none;
+}
+
+.check-text {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 /**=================Subscribe=================*/
