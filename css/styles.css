@@ -694,9 +694,16 @@ body {
 /**=================Subscribe=================*/
 
 .subscribe-container {
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 
+.subscribe-form {
+  display: flex;
+}
+
+.subscribe-lable {
+  margin-right: 24px;
+}
 
 .subscribe-input {
   background-color: transparent;
