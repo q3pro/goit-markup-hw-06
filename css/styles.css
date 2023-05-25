@@ -720,10 +720,10 @@ body {
 }
 .subscribe-button {
   position: relative;
-  margin-left: 16px;
+  /* margin-left: 16px; */
   background: var(--portfolio-btn-color);
   color: var(--body-background-color);
-  padding: 8px 24px;
+  /* padding: 8px 24px; */
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
