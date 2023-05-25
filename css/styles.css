@@ -697,11 +697,8 @@ body {
   margin-left: 80px;
 }
 
-.subscribe-form {
- 
-}
 
-.Subscribe-input {
+.subscribe-input {
   background-color: transparent;
   width: 264px;
   height: 40px;
@@ -711,7 +708,7 @@ body {
   color: #ffffff;
   padding: 8px 16px;
 }
-.Subscribe-button {
+.subscribe-button {
   position: relative;
   margin-left: 16px;
   background: var(--portfolio-btn-color);
@@ -727,7 +724,7 @@ body {
   width: 165px;
   height: 40px;
 }
-.Subscribe-icon {
+.subscribe-icon {
   position: absolute;
   margin-left: 16px;
 }
