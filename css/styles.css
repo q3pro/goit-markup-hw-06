@@ -789,9 +789,9 @@ body {
   height: 40px;
   align-items: center;
   justify-content: center;
-  /* display: flex; */
+  display: flex;
   text-align: left;
-  padding: 8px 24px;
+  /* padding: 8px 24px; */
 }
 .subscribe-icon {
   position: absolute;
