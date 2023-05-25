@@ -646,11 +646,11 @@ body {
 }
 
 .modal-input:focus {
-  border-color: #4D5AE5;
+  border-color: #4d5ae5;
 }
 
 .modal-input:focus + .modal-icon {
-  fill: #4D5AE5;
+  fill: #4d5ae5;
 }
 
 .modal-icon {
@@ -660,13 +660,11 @@ body {
   transform: translateY(-50%);
 }
 
-
 .modal-label {
   font-size: 12px;
   display: block;
   margin-bottom: 4px;
 }
-
 
 .input-text {
   display: inline-block;
@@ -725,6 +723,6 @@ body {
   height: 40px;
 }
 .Subscribe-icon {
-  position: absolute; 
-  margin-left: 16px;   
+  position: absolute;
+  margin-left: 16px;
 }
