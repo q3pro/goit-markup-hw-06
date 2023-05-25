@@ -627,7 +627,7 @@ body {
   line-height: 1.5;
   color: var(--h2-text-color);
   margin-bottom: 16px;
-  /* margin-top: 72px; */
+  letter-spacing: 0.02em;
 }
 
 .modal-field {
@@ -665,7 +665,7 @@ body {
 .modal-label {
   font-size: 12px;
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 
 .input-text {
@@ -699,9 +699,9 @@ body {
   margin-left: 80px;
 }
 
-.subscribe-form {
+/* .subscribe-form {
   display: flex;
-}
+} */
 
 .subscribe-lable {
   margin-right: 24px;
