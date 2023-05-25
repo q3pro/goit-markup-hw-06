@@ -694,7 +694,7 @@ body {
 /**=================Subscribe=================*/
 
 .subscribe-container {
-  /* margin-left: 80px; */
+  margin-left: 80px;
 }
 
 .subscribe-form {
@@ -724,15 +724,18 @@ body {
   background: var(--portfolio-btn-color);
   color: var(--body-background-color);
   padding: 8px 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-align: left;
+  /* text-align: left; */
   letter-spacing: 0.04em;
-  width: 165px;
+  max-width: 165px;
   height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .subscribe-icon {
   position: absolute;
