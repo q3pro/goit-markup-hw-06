@@ -696,6 +696,11 @@ body {
 .Subscribe-container {
   margin-left: 80px;
 }
+
+.subscribe-form {
+  display: flex;
+}
+
 .Subscribe-input {
   background-color: transparent;
   width: 264px;
