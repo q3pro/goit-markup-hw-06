@@ -704,6 +704,14 @@ body {
   margin-bottom: 24px;
 }
 
+.check:focus + .span-check {
+  background-color:var(--second-link-color);
+  border: none;
+  fill:var(--body-background-color);
+  border-color: var(--second-link-color);
+
+}
+
 .check-text {
   font-size: 12px;
   line-height: 1.17;
@@ -721,6 +729,11 @@ body {
   align-items: center; 
   justify-content: center;
   fill: transparent;  
+}
+
+.privacy-link {
+  color:var(--portfolio-btn-color);
+  
 }
 
 /**=================Subscribe=================*/
