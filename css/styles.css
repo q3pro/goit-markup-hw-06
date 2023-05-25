@@ -333,8 +333,6 @@ body {
 .team-soc-icon {
 }
 
-.test {
-}
 /**===============PORTFOLIO==========*/
 .button-section {
   padding-top: 96px;
@@ -705,19 +703,17 @@ body {
 }
 
 .check:focus + .span-check {
-  background-color:var(--second-link-color);
+  background-color: var(--second-link-color);
   border: none;
-  fill:var(--body-background-color);
+  fill: var(--body-background-color);
   border-color: var(--second-link-color);
-
 }
 
 .check-text {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color:var(--custumers-color)
-
+  color: var(--custumers-color);
 }
 
 .span-check {
@@ -726,16 +722,30 @@ body {
   border: 1px solid #2e2f42;
   border-radius: 2px;
   display: inline-flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
-  fill: transparent;  
+  fill: transparent;
 }
 
 .privacy-link {
-  color:var(--portfolio-btn-color);
-  
+  color: var(--portfolio-btn-color);
 }
 
+.send-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /**=================Subscribe=================*/
 
 .subscribe-container {
