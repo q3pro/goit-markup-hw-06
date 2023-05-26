@@ -716,6 +716,14 @@ body {
   color: var(--custumers-color);
 }
 
+.check:focus > .span-check {
+  /* background-color: var(--second-link-color); */
+  border: none;
+  /* fill: var(--body-background-color);
+  border-color: var(--second-link-color); */
+}
+
+
 .span-check {
   width: 16px;
   height: 16px;
