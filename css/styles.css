@@ -702,7 +702,7 @@ body {
   margin-bottom: 24px;
 }
 
-.input-check:checked + .check-text > .span-check {
+.check:checked + .check-text > .span-check {
   background-color: var(--second-link-color);
   border: none;
   fill: var(--body-background-color);
