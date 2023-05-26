@@ -709,14 +709,6 @@ body {
   color: var(--custumers-color);
 }
 
-.check:focus > .span-check {
-  /* background-color: var(--second-link-color); */
-  border: none;
-  /* fill: var(--body-background-color);
-  border-color: var(--second-link-color); */
-}
-
-
 .span-check {
   width: 16px;
   height: 16px;
@@ -728,9 +720,9 @@ body {
   fill: transparent;
 }
 
-.privacy-link {
+/* .privacy-link {
   color: var(--portfolio-btn-color);
-}
+} */
 
 .send-button {
   margin: 0 auto;
