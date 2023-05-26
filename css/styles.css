@@ -702,7 +702,28 @@ body {
   margin-bottom: 24px;
 }
 
+.input-check:checked + .check-text > .span-check {
+  background-color: var(--second-link-color);
+  border: none;
+  fill: var(--body-background-color);
+  border-color: var(--second-link-color);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .check-text {
+  position: relative;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
